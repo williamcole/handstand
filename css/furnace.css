@@ -1,0 +1,103 @@
+/* Furnace Styles
+-------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+/* CUSTOM */
+
+#frm_form_3_container {
+	text-align: center;
+}
+
+.frm_section {
+	background: #fff url('http://handstandrecords.com/wp-content/themes/handstand-2014/images/furnace/furnace-waveform.png');
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	border: 0;
+	color: #2c2a2b;
+	clear: both;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 0 auto 1em;
+	padding: 1.5em 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_half {
+	border: 0;
+	margin: 0 auto;
+	padding: 1em 0;
+	max-width: 100%;
+	width: 100%;
+}
+
+.frm_style_formidable-style.with_frm_style label.frm_primary_label,
+.frm_style_formidable-style.with_frm_style.frm_login_form label {
+	color: #2a2829;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 3px 0;
+	width: auto;
+	display: block;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_required {
+	color: #e03223;
+	font-weight: bold;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_checkbox,
+.frm_style_formidable-style.with_frm_style .frm_radio {
+	text-align: left;
+}
+
+.frm_style_formidable-style.with_frm_style input[type=text], .frm_style_formidable-style.with_frm_style input[type=password], .frm_style_formidable-style.with_frm_style input[type=email], .frm_style_formidable-style.with_frm_style input[type=number], .frm_style_formidable-style.with_frm_style input[type=url], .frm_style_formidable-style.with_frm_style input[type=tel], .frm_style_formidable-style.with_frm_style input[type=file], .frm_style_formidable-style.with_frm_style input[type=search], .frm_style_formidable-style.with_frm_style select, .frm_style_formidable-style.with_frm_style textarea {
+	border: 1px solid #CCC;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.3;
+}
+
+.frm_grid_first .frm_radio label, .frm_grid .frm_radio label, .frm_grid_odd .frm_radio label, .frm_grid_first .frm_checkbox label, .frm_grid .frm_checkbox label, .frm_grid_odd .frm_checkbox label {
+	visibility: visible;
+}
+
+.frm_style_formidable-style.with_frm_style .frm_submit button {
+	background: #f2f2f2;
+	background: -webkit-linear-gradient(#f2f2f2, #FFFFFA);
+	background: -o-linear-gradient(#f2f2f2, #FFFFFA);
+	background: -moz-linear-gradient(#f2f2f2, #FFFFFA);
+	background: linear-gradient(#f2f2f2, #FFFFFA);
+
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	color: #666;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 1em auto;
+	padding: 0.5em 1em;
+	text-align: center;
+	text-transform: uppercase;
+	-webkit-transition: background 0.5s;
+	transition: background 0.5s;
+}
+.frm_style_formidable-style.with_frm_style .frm_submit button:hover {
+	background: #FFFFFA;
+	background: -webkit-linear-gradient(#FFFFFA, #f2f2f2);
+	background: -o-linear-gradient(#FFFFFA, #f2f2f2);
+	background: -moz-linear-gradient(#FFFFFA, #f2f2f2);
+	background: linear-gradient(#FFFFFA, #f2f2f2);
+
+	border: 1px solid #CCC;
+	color: #666;
+}

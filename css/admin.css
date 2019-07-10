@@ -1,0 +1,201 @@
+/* General Admin Styles */
+
+.hide {
+	display: none;
+}
+.small {
+	font-size: 10px;
+}
+.form-field input,
+.form-field textarea {
+	width: auto;
+}
+.form-table th {
+	width: 25%;
+}
+.form-table td {
+	width: auto;
+}
+div.updated,
+div.error {
+	padding: 0.5em;
+}
+.admin-table td {
+	padding: 1em 2em 1em 0;
+}
+#adminmenu div.separator {
+	height: 2px;
+	padding: 0;
+	background: #666;
+	margin: 10px 0;
+}
+.wrap hr {
+	background: #CCC;
+	border: 0;
+	color:#CCC;
+	height: 1px;
+}
+.wrap h2.page-title {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.tagchecklist span {
+	white-space: normal;
+}
+.tagcloud {
+	display: none;
+}
+
+/* remove unwanted taxonomy elements */
+#tagsdiv-features .hide-if-no-js:last-child,
+#tagsdiv-genres .hide-if-no-js:last-child,
+#tagsdiv-labels .hide-if-no-js:last-child,
+#poststuff .tagsdiv .howto {
+	display: none;
+}
+
+/* Multiple Post Thumbnails */
+
+#postimagediv .inside img,
+#items-back-image .inside img,
+#items-disc-image .inside img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Trades */
+
+.trade-items {
+	background: #F5F5F5;
+	border: 1px solid #DDD;
+	padding: 1em;
+}
+.trade-items p {
+	margin: 0;
+}
+
+/* Row Actions */
+.row-actions {
+	font-family: Verdana;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.row-actions .discogs a.view {
+	color: green;
+}
+.row-actions .discogs a.find {
+	color: #a00;
+}
+
+/* Quick Search Dashboard Widgets */
+
+#item-search-input {
+	width: 50% !important;
+}
+
+#search-submit {
+/*	width: 25%; */
+}
+
+/* New Arrivals Dashboard Widget */
+
+#hnd_new_arrivals_dashboard_widget .item {
+	clear: both;
+	margin-bottom: 10px;
+}
+#hnd_new_arrivals_dashboard_widget img {
+	float: left;
+	margin: 0 5px 0 0;
+	width: 20px;
+	height: 20px;
+}
+
+/* Bulk Edit */
+
+.nav-filter-box {
+	display: table-cell;
+	padding: 0 1em 0 0;
+	vertical-align: top;
+}
+.nav-filter-box select {
+	width: 120px;
+}
+
+/* Table Sorter */
+
+table.tablesorter {
+	background: #DDD;
+	text-align: left;
+	width: 100%;
+}
+table.tablesorter thead tr th {
+	font-size: 14px !important;
+	text-align: left;
+}
+table.tablesorter thead tr th,
+table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url('../images/tablesorter-bg.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	background: #FFF;
+	padding: 5px;
+}
+table.tablesorter tbody th.narrow,
+table.tablesorter tbody td.narrow { 
+	width: 100px;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url('../images/tablesorter-asc.gif');
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url('../images/tablesorter-desc.gif');
+}
+table.tablesorter thead tr .headerSortDown,
+table.tablesorter thead tr .headerSortUp {
+	background-color: #8dbdd8;
+}
+
+
+/* Trade List Template Styles
+-------------------------------------------------------------- */
+
+#trade-list {
+	background: yellow;
+}
+.trade-item {
+	margin-bottom: 10px;
+}
+.trade-item .post-thumbnail {
+	margin: 0 10px 10px 0;
+	width: 50px;
+	height: 50px;
+}
+.trade-item .title {
+	font-family: 'cartogothic_stdbold', Arial, sans-serif;
+	margin-right: 5px;
+}
+.trade-item .title a {
+	color: #000;
+}
+.trade-item .serial {
+	color: #777;
+	display: block;
+	font-family: 'cartogothic_stdbook', Arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+.trade-item .excerpt {
+	display: block;
+}
